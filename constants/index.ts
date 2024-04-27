@@ -1,37 +1,37 @@
 export const sidebarLinks = [
     {
-        label : "Home",
-        route  : '/',
-        imgURL : '/icons/Home.svg'
-        
-
+      imgURL: '/icons/Home.svg',
+      route: '/',
+      label: 'Home',
+    },
+  
+    {
+      imgURL: '/icons/upcoming.svg',
+      route: '/upcoming',
+      label: 'Upcoming',
     },
     {
-        label : "Upcoming ",
-        route  : '/upcoming',
-        imgURL : '/icons/upcoming.svg'
-        
-
+      imgURL: '/icons/previous.svg',
+      route: '/previous',
+      label: 'Previous',
     },
     {
-        label : "Previous",
-        route  : '/previous',
-        imgURL : '/icons/previous.svg'
-        
-
+      imgURL: '/icons/Video.svg',
+      route: '/recordings',
+      label: 'Recordings',
     },
     {
-        label : "Recordings",
-        route  : '/recordings',
-        imgURL : '/icons/Video.svg'
-        
-
+      imgURL: '/icons/add-personal.svg',
+      route: '/personal-room',
+      label: 'Personal Room',
     },
-    {
-        label : "Personal Room",
-        route  : '/personal-room',
-        imgURL : '/icons/add-personal.svg'
-        
-
-    }
-]
+  ];
+  
+  export const avatarImages = [
+    '/images/avatar-1.jpeg',
+    '/images/avatar-2.jpeg',
+    '/images/avatar-3.png',
+    '/images/avatar-4.png',
+    '/images/avatar-5.png',
+  ];
+  
