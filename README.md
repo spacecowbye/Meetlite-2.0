@@ -1,37 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Meetlite: Lightweight Video Conferencing App
 
-## Getting Started
+Meetlite is a lightweight video conferencing application designed to provide seamless communication and collaboration experiences. With built-in features like screen sharing, support for multiple participants, and recording capabilities, Meetlite empowers users to conduct productive meetings and discussions effortlessly.
 
-First, run the development server:
+## Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Video Conferencing:** Conduct high-quality video calls with ease. Meetlite utilizes the Stream API to deliver smooth and reliable video streaming for uninterrupted communication.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Screen Sharing:** Share your screen in real-time during meetings to showcase presentations, documents, or any other content. Collaborate effectively by sharing your screen with other participants.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Multiple Participants:** Connect with multiple participants simultaneously. Meetlite supports multiple joiners, enabling teams, clients, or friends to join the conversation from anywhere.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. **Recording Functionality:** Record meetings for future reference or sharing. With Meetlite's recording feature, you can capture important discussions and presentations for later review.
 
-## Learn More
+## Technologies Used:
 
-To learn more about Next.js, take a look at the following resources:
+Meetlite is built using the following technologies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js:** Next.js is a React framework that enables server-side rendering, routing, and other powerful features for building web applications.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Stream API:** The Stream API provides scalable and customizable solutions for building real-time chat, activity feeds, and more. Meetlite leverages the Stream API for seamless video streaming and communication.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# Meetlite-2.0
